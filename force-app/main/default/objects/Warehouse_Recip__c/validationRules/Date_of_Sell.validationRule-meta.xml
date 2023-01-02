@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_of_Sell</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( Stages__c , &quot;OutWard&quot;),  ISBLANK( Date_Of_Sell__c ) )</errorConditionFormula>
+    <errorDisplayField>Date_Of_Sell__c</errorDisplayField>
+    <errorMessage>Please Enter</errorMessage>
+</ValidationRule>

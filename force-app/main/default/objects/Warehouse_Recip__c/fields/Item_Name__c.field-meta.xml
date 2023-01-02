@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Item Name</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Groundnut(भुईमूग)</fullName>
+                <default>false</default>
+                <label>Groundnut(भुईमूग)</label>
+            </value>
+            <value>
+                <fullName>Sunflower(सूर्यफूल)</fullName>
+                <default>false</default>
+                <label>Sunflower(सूर्यफूल)</label>
+            </value>
+            <value>
+                <fullName>Sesame/Til(तीळ/तीळ)</fullName>
+                <default>false</default>
+                <label>Sesame/Til(तीळ/तीळ)</label>
+            </value>
+            <value>
+                <fullName>Safflower(करडई)</fullName>
+                <default>false</default>
+                <label>Safflower(करडई)</label>
+            </value>
+            <value>
+                <fullName>Linseed(जवस)</fullName>
+                <default>false</default>
+                <label>Linseed(जवस)</label>
+            </value>
+            <value>
+                <fullName>Soybean(सोयाबीन)</fullName>
+                <default>false</default>
+                <label>Soybean(सोयाबीन)</label>
+            </value>
+            <value>
+                <fullName>Rapeseed(रेपसीड)</fullName>
+                <default>false</default>
+                <label>Rapeseed(रेपसीड)</label>
+            </value>
+            <value>
+                <fullName>Mustard(मोहरी)</fullName>
+                <default>false</default>
+                <label>Mustard(मोहरी)</label>
+            </value>
+            <value>
+                <fullName>Wheat(गहू)</fullName>
+                <default>false</default>
+                <label>Wheat(गहू)</label>
+            </value>
+            <value>
+                <fullName>Pearl millet(बाजरी)</fullName>
+                <default>false</default>
+                <label>Pearl millet(बाजरी)</label>
+            </value>
+            <value>
+                <fullName>Finger miller(नाचणी )</fullName>
+                <default>false</default>
+                <label>Finger miller(नाचणी )</label>
+            </value>
+            <value>
+                <fullName>Rice(तांदूळ)</fullName>
+                <default>false</default>
+                <label>Rice(तांदूळ)</label>
+            </value>
+            <value>
+                <fullName>Sorghum(ज्वारी)</fullName>
+                <default>false</default>
+                <label>Sorghum(ज्वारी)</label>
+            </value>
+            <value>
+                <fullName>Barley(सातू)</fullName>
+                <default>false</default>
+                <label>Barley(सातू)</label>
+            </value>
+            <value>
+                <fullName>Maize/corn(मका)</fullName>
+                <default>false</default>
+                <label>Maize/corn(मका)</label>
+            </value>
+            <value>
+                <fullName>Gram /yellow gram/chickpeas(हरभरा)</fullName>
+                <default>false</default>
+                <label>Gram /yellow gram/chickpeas(हरभरा)</label>
+            </value>
+            <value>
+                <fullName>Split chickpeas(हरभराडाळ)</fullName>
+                <default>false</default>
+                <label>Split chickpeas(हरभराडाळ)</label>
+            </value>
+            <value>
+                <fullName>Black-eyed beans/ black- eyed pea/ goat pea(चवळी)</fullName>
+                <default>false</default>
+                <label>Black-eyed beans/ black- eyed pea/ goat pea(चवळी)</label>
+            </value>
+            <value>
+                <fullName>Black gram(उडीद)</fullName>
+                <default>false</default>
+                <label>Black gram(उडीद)</label>
+            </value>
+            <value>
+                <fullName>Split black gram(उडीदडाळ)</fullName>
+                <default>false</default>
+                <label>Split black gram(उडीदडाळ)</label>
+            </value>
+            <value>
+                <fullName>Green gram(मुग)</fullName>
+                <default>false</default>
+                <label>Green gram(मुग)</label>
+            </value>
+            <value>
+                <fullName>Split green gram(मुगडाळ)</fullName>
+                <default>false</default>
+                <label>Split green gram(मुगडाळ)</label>
+            </value>
+            <value>
+                <fullName>Red Pigeon pea(लाल तुर)</fullName>
+                <default>false</default>
+                <label>Red Pigeon pea(लाल तुर)</label>
+            </value>
+            <value>
+                <fullName>White Piegeon Pea(पांढरी तुर)</fullName>
+                <default>false</default>
+                <label>White Piegeon Pea(पांढरी तुर)</label>
+            </value>
+            <value>
+                <fullName>Split pigeon pea(तुरडाळ)</fullName>
+                <default>false</default>
+                <label>Split pigeon pea(तुरडाळ)</label>
+            </value>
+            <value>
+                <fullName>Lentil(मसूर)</fullName>
+                <default>false</default>
+                <label>Lentil(मसूर)</label>
+            </value>
+            <value>
+                <fullName>Split lentil(मसूरडाळ)</fullName>
+                <default>false</default>
+                <label>Split lentil(मसूरडाळ)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

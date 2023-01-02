@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Daily laser</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Daily laser</value>
+    </caseValues>
+    <layouts>
+        <layout>Daily laser Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Inward</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Outward</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

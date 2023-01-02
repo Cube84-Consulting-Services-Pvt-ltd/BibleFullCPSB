@@ -1,0 +1,60 @@
+<aura:component controller="RelatedAccountDSLController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+	 <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="cbaseURL" type="String"/>
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="AccountDSL" type="Daily_laser__c[]"/>
+    <lightning:card variant="Narrow" class="slds-box slds-box_x-small slds-theme_shade" title="Daily Laser" iconName="Custom:Daily_laser__c"/> 
+    <table class="slds-table slds-table_cell-buffer slds-table_bordered" aria-labelledby="element-with-table-label other-element-with-table-label">
+       	<thead>
+                <tr class="slds-line-height_reset">
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Daily Laser Name">Daily Laser Name</div>
+                        </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Account Name">Account Name</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Amount">Amount</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Record Type">Record Type</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Date">Date</div>
+                    </th>
+                    <th class="" scope="col">
+                        <div class="slds-truncate" title="Reason">Reason</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <aura:iteration var="d" items="{!v.AccountDSL}" indexVar="indx">
+                     <!--aura:if isTrue="{!d.RecordType.Name =='Inward'}"-->
+                    <tr class="slds-hint-parent">
+                        <th data-label="Daily Laser Name" scope="row">
+                            <div class="slds-truncate" title="{!d.Name}">
+                                <a href ="{!cbaseURL+'/lightning/r/Daily_laser__c/'+d.Id+'/view'}">{!d.Name}</a>
+                            </div>
+                        </th>
+                        <td data-label="Account Name">
+                            <div class="slds-truncate" title="{!d.Account_Name__c.Name}">{!d.Account_Name__c.Name}</div>
+                        </td>
+                        <td data-label="Amount">
+                            <div class="slds-truncate" title="{!d.Amount__c}"><lightning:formattedNumber value="{!d.Amount__c}" style="currency" currencyCode="USD"/></div>
+                        </td>
+                        <td data-label="Record Type">
+                            <div class="slds-truncate" title="{!d.RecordType.Name}">{!d.RecordType.Name}</div>
+                        </td>
+                        <td data-label="Date">
+                            <div class="slds-truncate" title="{!d.Date__c}"><lightning:formattedDateTime value="{!d.Date__c}" month="numeric" year="numeric" day="numeric" /></div>
+                        </td>
+                         <td data-label="Reason">
+                            <div class="slds-truncate" title="{!d.Reason__c}">{!d.Reason__c}</div>
+                        </td>
+                    </tr>
+                   <!--/aura:if-->
+                    
+                </aura:iteration>
+            </tbody>
+        </table>
+</aura:component>
